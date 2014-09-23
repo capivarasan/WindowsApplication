@@ -42,7 +42,7 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(158, 53)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "search"
+        Me.Button2.Text = "find"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
