@@ -33,7 +33,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(158, 53)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "登録"
+        Me.Button1.Text = "Regist"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
