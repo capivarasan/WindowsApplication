@@ -33,7 +33,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(158, 53)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Regist"
+        Me.Button1.Text = "登　録"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
@@ -42,7 +42,7 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(158, 53)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "find"
+        Me.Button2.Text = "検　索"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
@@ -51,7 +51,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(158, 57)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "終了"
+        Me.Button3.Text = "終　了"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Form1

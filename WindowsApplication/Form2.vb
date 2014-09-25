@@ -13,8 +13,8 @@ Public Class Form2
         strSQL &= "'" & TextBox3.Text & "',"
         strSQL &= "'" & TextBox4.Text & "')"
 
-        Dim conn As NpgsqlConnection =
-        New NpgsqlConnection("Server=localhost; Port=5432; User Id=postgres; Password=iwata; Database=test-profile;")
+        'DB
+        Dim conn As NpgsqlConnection = DoSql(strSQL)
 
         conn.Open()
 
@@ -23,9 +23,10 @@ Public Class Form2
 
         Dim sResult As String = command.ExecuteScalar()
 
+        conn.Close()
+
         MessageBox.Show("登録しました")
 
-        conn.Close()
         End
 
     End Sub

@@ -13,8 +13,8 @@ Public Class Form3
         strSQL &= "WHERE name1 = "
         strSQL &= "('" & TextBox1.Text & "')"
 
-        Dim conn As NpgsqlConnection =
-        New NpgsqlConnection("Server=localhost; Port=5432; User Id=postgres; Password=iwata; Database=test-profile;")
+        'DB
+        Dim conn As NpgsqlConnection = DoSql(strSQL)
 
         conn.Open()
 
